@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="dweep io 1.svg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>Micro Project 1</title>
+</head>
+
+<body>
+    <script>
+        function onclick_event() {
+            document.getElementById("register").innerHTML =
+                "<h1>Thankyou!</h1>";
+        }
+    </script>
+    <div class="left">
+        <h1 style="font-weight: 700 ; width: 90%; font-size: 30px;">An inspiring design delivered to your inbox
+            every morning</h1>
+        <div style="margin-top: 4%; width: 70%; font-size: 17px;">Our team scouts the internet for the best
+            designs, illustrations
+            and art and delivers a truly inspiring one every day to your inbox</div>
+        <div style="margin-top: 4%; font-weight: 800; font-size: 16;">Show me how it looks</div>
+
+        <form id="register">
+            <input type="email" name="email" placeholder="Your e-mail address" value="" required>
+            <button onclick="onclick_event()">Register Now</button>
+        </form>
+
+        <div style="padding-top: 2%; margin-left: 10%; color: #ffffff; font-weight: 500; font-size: 13px;">
+            Free - No
+            Spam - No
+            Data Sharing</div>
+    </div>
+    <div class="right"><img src="dweep io 1.svg" alt="person"></div>
+    <footer>
+        <div id="fleft">
+            <ul type="none">
+                <li>Prompt Generator</li>
+                <li>Dweep Daily</li>
+                <li>All Contributors</li>
+                <li>Your data on Dweep.io</li>
+                <li>Contribute to Dweep</li>
+            </ul>
+        </div>
+        <div id="fright">
+            <ul type="none">
+                <li> Dweep.io</li>
+                <li>Made with love in India</li>
+                <li><img height="20px" src="LinkedinLogo.svg"><img height="20px" src="InstagramLogo.svg"></li>
+                <br>
+                <li>hello@dweep.io</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
